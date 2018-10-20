@@ -1,8 +1,7 @@
 'use strict';
 
 $(document).ready(function(){
-	console.log('DOM loaded - you can have fun');
-});
+
 
 const span = $('span');
    
@@ -21,4 +20,6 @@ paragraphs.each(function(index, element) {
 
 $('button').click(function(){
 	alert($(this).attr('data-tmp'));
+});
+
 });
